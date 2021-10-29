@@ -14,9 +14,7 @@ player_image = pygame.image.load("player.png").convert_alpha()
 #Creating sound
 fire_sound=pygame.mixer.Sound("laser5.wav")
 blast=pygame.mixer.Sound("hit01.wav")
-pygame.mixer.music.load("bgmusic.wav")
-pygame.mixer.music.set_volume(0.2)
-pygame.mixer.music.play()
+
 
 #creating objects of game
 player=pygame.Rect(200,500,30,30)
